@@ -20,6 +20,8 @@ namespace ChooseYourOwnAdventure
 
       if (noiseChoice == "NO"){
         Console.WriteLine("Not much of an adventure if you don't leave your room!\n THE END.");
+      }else if (noiseChoice == "YES"){
+        Console.WriteLine("You walk into the hallway and see a light coming from under a door down the hall. You walk towards it. Do you open i or knock?");
       }
 
     }
