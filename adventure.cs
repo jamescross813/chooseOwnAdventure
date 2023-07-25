@@ -16,6 +16,7 @@ namespace ChooseYourOwnAdventure
       Console.WriteLine("It begins on a cold rainy night. You're sitting in your room and hear a noise coming from down the hall. Do you go investigate?");
 
       Console.Write("Type YES or NO: ");
+      string noiseChoice = Console.ReadLine().ToUpper();
     }
   }
 }
