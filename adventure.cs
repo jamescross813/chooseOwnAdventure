@@ -17,6 +17,11 @@ namespace ChooseYourOwnAdventure
 
       Console.Write("Type YES or NO: ");
       string noiseChoice = Console.ReadLine().ToUpper();
+
+      if (noiseChoice == "NO"){
+        Console.WriteLine("Not much of an adventure if you don't leave your room!\n THE END.");
+      }
+
     }
   }
 }
