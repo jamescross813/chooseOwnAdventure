@@ -23,8 +23,15 @@ namespace ChooseYourOwnAdventure
       }else if (noiseChoice == "YES"){
         Console.WriteLine("You walk into the hallway and see a light coming from under a door down the hall. You walk towards it. Do you open i or knock?");
       }
+
       Console.Write("Type OPEN or KNOCK: ");
       string doorChoice = Console.ReadLine().ToUpper();
+
+       if(doorChoice == "KNOCK"){
+
+      }else if(doorChoice=="OPEN"){
+
+      }
     }
   }
 }
