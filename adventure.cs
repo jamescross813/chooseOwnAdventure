@@ -31,6 +31,11 @@ namespace ChooseYourOwnAdventure
           Console.WriteLine("A voice behind the door speaks. It says, \"answer this riddle: \n Poor people have it. Rich people need it. If you eat it you die. What is it?\"");
           Console.Write("Type your answer: "):
           string riddleAnswer = Console.ReadLine().ToUpper();
+          if(riddleAnswer == "NOTHING"){
+            
+          }else{
+          
+          }
       }else if(doorChoice=="OPEN"){
 
       }
