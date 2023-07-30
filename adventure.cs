@@ -27,8 +27,8 @@ namespace ChooseYourOwnAdventure
       Console.Write("Type OPEN or KNOCK: ");
       string doorChoice = Console.ReadLine().ToUpper();
 
-       if(doorChoice == "KNOCK"){
-
+      if(doorChoice == "KNOCK"){
+          Console.WriteLine("A voice behind the door speaks. It says, \"answer this riddle: \n Poor people have it. Rich people need it. If you eat it you die. What is it?\"");
       }else if(doorChoice=="OPEN"){
 
       }
