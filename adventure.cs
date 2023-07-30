@@ -32,9 +32,9 @@ namespace ChooseYourOwnAdventure
           Console.Write("Type your answer: "):
           string riddleAnswer = Console.ReadLine().ToUpper();
           if(riddleAnswer == "NOTHING"){
-            
+            Console.WriteLine("The door opens and NOTHING is there. You turn off th elight and run back to your room and lock the door./n THE END.");
           }else{
-          
+            Console.WriteLine("You answered incorrectly. The door doesn't open./n THE END.");
           }
       }else if(doorChoice=="OPEN"){
 
