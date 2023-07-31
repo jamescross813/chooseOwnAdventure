@@ -38,7 +38,7 @@ namespace ChooseYourOwnAdventure
           }
       }else if(doorChoice=="OPEN"){
             Console.WriteLine("The door is locked! See if one of your three keys will open it.");
-            
+            Console.Write("Enter and number (1-3)");
       }
     }
   }
