@@ -43,13 +43,18 @@ namespace ChooseYourOwnAdventure
 
             switch(keyChoice){
               case "1":
+                Console.WriteLine("You choose the first key. Lucky choice! The door opens and NOTHING is there.\n Strange...\n THE END.");
                 break;
               case "2":
+                Console.WriteLine("You choose the second key. The door doesn't open.\n THE END.");
                 break;
               case "3":
+                Console.WriteLine("You choose the third key. The door doesn't open.\n THE END.");
                 break;
-              case default:
-                break
+              default:
+                  Console.WriteLine("You fumbledwith your keys. The door doesn't open.\n THE END.");
+                break;
+            }
             }
       }
     }
