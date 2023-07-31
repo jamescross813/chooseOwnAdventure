@@ -37,7 +37,8 @@ namespace ChooseYourOwnAdventure
             Console.WriteLine("You answered incorrectly. The door doesn't open./n THE END.");
           }
       }else if(doorChoice=="OPEN"){
-
+            Console.WriteLine("The door is locked! See if one of your three keys will open it.");
+            
       }
     }
   }
