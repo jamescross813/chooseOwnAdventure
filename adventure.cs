@@ -40,6 +40,17 @@ namespace ChooseYourOwnAdventure
             Console.WriteLine("The door is locked! See if one of your three keys will open it.");
             Console.Write("Enter and number (1-3)");
             string keyChoice = Console.ReadLine().ToUpper();
+
+            switch(keyChoice){
+              case "1":
+                break;
+              case "2":
+                break;
+              case "3":
+                break;
+              case default:
+                break
+            }
       }
     }
   }
